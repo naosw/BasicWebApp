@@ -9,14 +9,12 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
         if (query.toLowerCase().contains("name")) {
-            return "MyTeam";
+            return "DAN";
         }
         if (query.toLowerCase().contains("cool")) {
             return "Yep, you are cool.";
         }
-        if (query.toLowerCase().contains("team")) {
-            return "DAN";
-        }
+    
         return "";
     }
 }
